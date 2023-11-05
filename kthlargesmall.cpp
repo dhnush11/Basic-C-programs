@@ -24,14 +24,7 @@ int main()
 	printf("Enter number for finding kth largest and smallest");
 	scanf("%d",&t);
 	b = a[t-1];
-	int c[n];
-	j = -1;
-	for (i=n-1;i!=-1;i--)
-	{
-		j = j + 1;
-		c[j]=a[i];
-	}
-	h = c[t-1];
+	h = a[n-t]
 	printf("%d th smallest number : %d\n",t,b);
 	printf("%d th largest number : %d",t,h);
 	
